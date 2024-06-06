@@ -1,0 +1,267 @@
+.question {
+  &.question--order {
+    .question-order-wrapper ~ .question-order-wrapper {
+      margin-top: 20px;
+    }
+
+    .question-order-wrapper {
+      &.question-order-wrapper--active {
+        .question-order-item {
+          outline: 2px solid #1edc1a;
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .question-order-item__thumb {
+          background: url("../../../public/img/type-questions/thumb-act.svg")
+            center center/contain no-repeat;
+          @media (max-width: 767.98px) {
+            background: url("../../../public/img/type-questions/thumb-act-mob.svg")
+              center center/contain no-repeat !important;
+          }
+        }
+      }
+    }
+
+    .question-order-wrap {
+      width: 100%;
+    }
+
+    .question-order-item-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .question-order-number {
+      color: #2b2b2b;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+    }
+
+    .question-order-pseudo {
+      //display: none;
+      border-radius: 12px;
+      border: 2px dashed #ddd;
+      min-height: 68px;
+      width: 100%;
+
+      @media (max-width: 767.98px) {
+        min-height: 56px;
+      }
+
+      &.question-order-pseudo--before {
+        margin-bottom: 20px;
+      }
+
+      &.question-order-pseudo--after {
+        margin-top: 20px;
+      }
+    }
+
+    .question-order-item {
+      width: 100%;
+      gap: 12px;
+      display: flex;
+      align-items: center;
+      border-radius: 12px;
+      outline: 1px solid #ddd;
+      background: #fff;
+      padding: 16px 56px 16px 46px;
+      position: relative;
+      overflow: hidden;
+      min-height: 68px;
+
+      .question-order-item__thumb {
+        cursor: pointer;
+        position: absolute;
+        display: block;
+        left: 16px;
+        top: calc(50% - 12px);
+        content: "";
+        width: 14px;
+        height: 24px;
+        background: url("../../../public/img/type-questions/thumb-def.svg")
+          center center/contain no-repeat;
+      }
+
+      .question-order-item__text {
+        color: #2b2b2b;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        max-height: 200px;
+        min-width: min-content;
+        overflow-y: auto;
+        padding-right: 27px;
+
+        @media (max-width: 767.98px) {
+          font-size: 14px;
+          line-height: 16px;
+          min-width: unset;
+          overflow-y: unset;
+          padding-right: unset;
+          max-height: unset;
+          margin-bottom: 12px;
+        }
+
+        &::-webkit-scrollbar {
+          width: 8px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+          background: #cbcbcb;
+          border-radius: 20px;
+        }
+      }
+
+      .question-order-item__overlay {
+        border-radius: 8px;
+        background: #f5f5f5;
+        padding: 19px 18px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        min-height: 120px;
+        min-width: 200px;
+        @media (max-width: 767.98px) {
+          padding: 8px;
+        }
+
+        img {
+          object-fit: contain;
+          max-height: 162px;
+          @media (max-width: 575.98px) {
+            max-height: 106px;
+          }
+        }
+
+        a {
+          z-index: 2;
+          bottom: 8px;
+          right: 8px;
+          position: absolute;
+          background: #ffffff;
+          opacity: 0.8;
+          width: 36px;
+          height: 36px;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          i {
+            display: block;
+            width: 16px;
+            height: 16px;
+            background: url("../../../public/img/type-questions/arrow-img.svg")
+              center center/contain no-repeat;
+          }
+        }
+      }
+
+      .question-order-item__controls {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+
+        .question-order-btn {
+          width: 36px;
+          background: #fff;
+          height: 50%;
+          border: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 8px;
+          transition: 0.3s ease-in-out;
+
+          i {
+            width: 16px;
+            height: 8px;
+          }
+
+          &:hover {
+            background: rgba(30, 220, 26, 0.1);
+          }
+
+          &.question-order-btn--disabled {
+            cursor: not-allowed;
+
+            &:hover {
+              background: inherit;
+            }
+
+            i {
+              opacity: 0.1;
+            }
+          }
+
+          &.question-order-btn--up {
+            i {
+              background: url("../../../public/img/type-questions/arrow-up.svg");
+            }
+          }
+
+          &.question-order-btn--down {
+            i {
+              background: url("../../../public/img/type-questions/arrow-down.svg");
+            }
+          }
+        }
+      }
+    }
+
+    .question-order-item-wrapper {
+      &.question-order-desktop {
+        @media (max-width: 767.98px) {
+          display: none;
+        }
+      }
+
+      &.question-order-mobile {
+        display: none;
+        @media (max-width: 767.98px) {
+          display: flex;
+          align-items: flex-start;
+        }
+
+        .question-order-item {
+          padding: 44px 12px 12px 12px;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0;
+        }
+
+        .question-order-item__thumb {
+          width: 20px;
+          height: 12px;
+          top: 12px;
+          left: 12px;
+          background: url("../../../public/img/type-questions/thumb-def-mob.svg")
+            center center/contain no-repeat;
+        }
+
+        .question-order-item__controls {
+          top: 4px;
+          right: 4px;
+          bottom: unset;
+          flex-direction: row;
+          gap: 4px;
+
+          .question-order-btn {
+            width: 36px;
+            height: 36px;
+          }
+        }
+      }
+    }
+  }
+}

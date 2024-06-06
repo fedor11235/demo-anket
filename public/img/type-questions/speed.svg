@@ -1,0 +1,7 @@
+<svg  xmlns="http://www.w3.org/2000/svg">
+    <symbol fill="#fff" id="speed">
+        <path d="M18 35C27.3888 35 35 27.3888 35 18C35 8.61116 27.3888 1 18 1" stroke="currentColor" stroke-width="2"/>
+        <path d="M18 35C8.61116 35 1 27.3888 1 18C1 8.61116 8.61116 1 18 1" stroke="currentColor" stroke-width="2" stroke-dasharray="8 3"/>
+        <path d="M25.376 17.584L14.7773 10.5182C14.4451 10.2967 14 10.5349 14 10.9343L14 25.0657C14 25.4651 14.4451 25.7033 14.7773 25.4818L25.376 18.416C25.6728 18.2181 25.6728 17.7819 25.376 17.584Z" fill="currentColor"/>
+    </symbol>
+</svg>

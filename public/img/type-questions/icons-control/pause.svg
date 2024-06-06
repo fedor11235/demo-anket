@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <symbol id="pause"
+            fill="currentColor"
+    >
+<rect width="8" height="24" rx="1" fill="currentColor"/>
+<rect x="12" width="8" height="24" rx="1" fill="currentColor"/>
+
+    </symbol>
+</svg>

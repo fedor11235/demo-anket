@@ -1,0 +1,66 @@
+$themes: (
+  "default": (
+    "primary": #1edc1a,
+
+    "bg-primary": #ffffff,
+    "bg-secondary": #fdfdfd,
+    "bg-third": #8ef02c,
+    "bg-fourth": #db243a,
+    "bg-fifth": #e10000,
+    "bg-sixth": #ff1f1f,
+    "bg-seventh": #ff701f,
+    "bg-eighth": #ffa640,
+    "bg-ninth": #ffbe40,
+    "bg-tenth": #ffd43a,
+    "bg-eleventh": #fff61e,
+    "bg-twelfth": #faff16,
+    "bg-thirteenth": #c3ff18,
+
+    "text-primary": #444444,
+    "text-secondary": #2b2b2b,
+    "text-third": #939090,
+
+    "border-primary": #dddddd,
+  ),
+  "green": (),
+) !default;
+
+@mixin themify($property, $key, $themes: $themes) {
+  @each $theme, $colors in $themes {
+    @at-root .survey-fill--#{$theme}#{&} {
+      #{$property}: map-get($colors, $key);
+    }
+  }
+}
+
+@mixin color($arguments...) {
+  @include themify("color", $arguments...);
+}
+
+@mixin border-color($arguments...) {
+  @include themify("border-color", $arguments...);
+}
+
+@mixin border-top-color($arguments...) {
+  @include themify("border-top-color", $arguments...);
+}
+
+@mixin border-bottom-color($arguments...) {
+  @include themify("border-bottom-color", $arguments...);
+}
+
+@mixin background-color($arguments...) {
+  @include themify("background-color", $arguments...);
+}
+
+@mixin background($arguments...) {
+  @include themify("background", $arguments...);
+}
+
+@mixin fill($arguments...) {
+  @include themify("fill", $arguments...);
+}
+
+@mixin outline-color($arguments...) {
+  @include themify("outline-color", $arguments...);
+}

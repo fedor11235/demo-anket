@@ -1,0 +1,64 @@
+.question {
+  .question__icon-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 50%;
+    @include border-color("bg-primary");
+    @include background("bg-third");
+  }
+  .question__icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+
+    &.question__icon--star {
+      width: 36px;
+      height: 36px;
+
+      &.question__icon--star-default {
+        background-image: url("../../../public/img/type-questions/star-default.svg");
+        &:hover {
+          background-image: url("../../../public/img/type-questions/star-stroke.svg");
+        }
+      }
+
+      &.question__icon--star-active {
+        background-image: url("../../../public/img/type-questions/star-active.svg");
+        &:hover {
+          background-image: url("../../../public/img/type-questions/star-active.svg");
+        }
+      }
+    }
+
+    &.question__icon--smile {
+      @include smile-xs;
+
+      &.question__icon--smile-color {
+        background-image: url("../../../public/img/type-questions/test-smile.svg");
+      }
+      &.question__icon--smile-mono {
+        background-image: url("../../../public/img/type-questions/test-smile-mono.svg");
+      }
+    }
+
+    &.question__icon--custom {
+      @include smile-xs;
+    }
+
+    &.question__icon--xs {
+      @include smile-xs;
+    }
+    &.question__icon--sm {
+      @include smile-sm;
+    }
+    &.question__icon--md {
+      @include smile-md;
+    }
+    &.question__icon--lg {
+      @include smile-lg;
+    }
+  }
+}
