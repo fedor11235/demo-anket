@@ -1,8 +1,0 @@
-/* eslint-disable */ - убрать в некоторых компонентах 
-import $ from "jquery"; - где используется jquery подумать как лучше
-PaircompareControl - нет такого компонента в папке base, перенести с основного
-fancybox - использует jquery - удалить
-this.$question.fancybox({}); - из-за удаление функции не работают они закомменчены
-../../../public/img - убрать кастыль, публик имг в ассет, поменять инпорты
-нет стилей у scalle ползунка
-v-model="$store.state.savedAnswers[question.id]"
