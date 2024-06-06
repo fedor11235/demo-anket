@@ -3,13 +3,13 @@
     <button @click="handlerPlayAudio" type="button" class="control-btn">
       <i v-if="isAudioPlay" class="control-icon pause-icon">
         <svg width="20" height="24" viewBox="0 0 20 24">
-          <use href="/img/type-questions/icons-control/pause.svg#pause" />
+          <use href="/demo-anket/img/type-questions/icons-control/pause.svg#pause" />
         </svg>
       </i>
 
       <i v-else class="control-icon play-icon">
         <svg width="20" height="24" viewBox="0 0 20 24">
-          <use href="/img/type-questions/icons-control/play.svg#play" />
+          <use href="/demo-anket/img/type-questions/icons-control/play.svg#play" />
         </svg>
       </i>
     </button>
@@ -147,7 +147,7 @@
       @click="handlerMenu"
     >
       <svg width="100%" height="100%" viewBox="0 0 8 32">
-        <use href="/img/type-questions/icons-control/option.svg#optionIcon" />
+        <use href="/demo-anket/img/type-questions/icons-control/option.svg#optionIcon" />
       </svg>
     </button>
     <transition name="fade">
@@ -165,7 +165,7 @@
               height="100%"
               viewBox="0 0 36 36"
             >
-              <use href="/img/type-questions/speed.svg#speed" />
+              <use href="/demo-anket/img/type-questions/speed.svg#speed" />
             </svg>
             <p class="audiofile-modal__text">Скорость воспроизведения</p>
           </div>

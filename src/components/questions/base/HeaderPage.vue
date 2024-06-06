@@ -22,12 +22,12 @@
           <div class="sf-header__middle-wrapper">
             <img
               class="sf-header__middle-logo"
-              src="/img/type-questions/logo-comp.png"
+              src="/demo-anket/img/type-questions/logo-comp.png"
               alt="logo"
             />
             <img
               class="sf-header__middle-logo"
-              src="/img/type-questions/logo-comp.png"
+              src="/demo-anket/img/type-questions/logo-comp.png"
               alt="logo"
             />
           </div>
@@ -73,7 +73,7 @@
           <div class="sf-header__middle-wrapper">
             <img
               class="sf-header__middle-logo"
-              src="/img/type-questions/logo-comp.png"
+              src="/demo-anket/img/type-questions/logo-comp.png"
               alt="logo"
             />
           </div>

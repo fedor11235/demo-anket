@@ -10,7 +10,7 @@
       >
         <div class="sf-footer__logo-wrapper" v-if="logo">
           <a href="#" class="sf-footer__logo sf-footer__logo--desktop">
-            <img src="/img/type-questions/logo-footer.svg" alt="logo-footer" />
+            <img src="/demo-anket/img/type-questions/logo-footer.svg" alt="logo-footer" />
           </a>
 
           <div class="sf-footer__descr">
@@ -20,7 +20,7 @@
 
           <a href="#" class="sf-footer__logo sf-footer__logo--mobile">
             <img
-              src="/img/type-questions/logo-footer-mobile.svg"
+              src="/demo-anket/img/type-questions/logo-footer-mobile.svg"
               alt="logo-footer"
             />
             <div class="sf-footer__descr">

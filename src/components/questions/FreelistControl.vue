@@ -40,7 +40,7 @@ export default {
               id: 0,
               title: `Предложение 1`,
               required: true,
-              src: `/img/type-questions/img-title3.png`,
+              src: `/demo-anket/img/type-questions/img-title3.png`,
             },
             {
               id: 1,
@@ -51,7 +51,7 @@ export default {
               id: 2,
               title: `Предложение 3`,
               required: false,
-              src: `/img/type-questions/img-title3.png`,
+              src: `/demo-anket/img/type-questions/img-title3.png`,
             },
           ],
         },
@@ -69,7 +69,7 @@ export default {
               id: 1,
               title: `Предложение 2`,
               required: false,
-              src: `/img/type-questions/img-title3.png`,
+              src: `/demo-anket/img/type-questions/img-title3.png`,
             },
             {
               id: 2,

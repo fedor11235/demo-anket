@@ -31,7 +31,7 @@
               >
                 <img
                   v-if="!isLoading"
-                  :src="`/img/type-questions/${file.name}`"
+                  :src="`/demo-anket/img/type-questions/${file.name}`"
                   :alt="`${file.name}`"
                 />
               </div>

@@ -38,7 +38,7 @@
                   >
                     <div class="question__icon-overlay">
                       <img
-                        src="/img/type-questions/test-custom-img.svg"
+                        src="/demo-anket/img/type-questions/test-custom-img.svg"
                         alt=""
                         class="question__icon question__icon--custom question__icon--lg"
                       />

@@ -7,7 +7,7 @@
         <button v-if="!isVideoPlay" type="button">
           <i class="control-icon play-icon">
             <svg viewBox="0 0 20 24">
-              <use href="/img/type-questions/icons-control/play.svg#play" />
+              <use href="/demo-anket/img/type-questions/icons-control/play.svg#play" />
             </svg>
           </i>
         </button>
@@ -37,13 +37,13 @@
           <button type="button" class="control-btn" @click="handlerPlayVideo">
             <i v-if="isVideoPlay" class="control-icon pause-icon">
               <svg width="20" height="24" viewBox="0 0 20 24">
-                <use href="/img/type-questions/icons-control/pause.svg#pause" />
+                <use href="/demo-anket/img/type-questions/icons-control/pause.svg#pause" />
               </svg>
             </i>
 
             <i v-else class="control-icon play-icon">
               <svg viewBox="0 0 20 24">
-                <use href="/img/type-questions/icons-control/play.svg#play" />
+                <use href="/demo-anket/img/type-questions/icons-control/play.svg#play" />
               </svg>
             </i>
           </button>
@@ -160,7 +160,7 @@
           >
             <svg width="27" height="27" viewBox="0 0 27 27">
               <use
-                href="/img/type-questions/icons-control/full-screen.svg#fullScreenIcon"
+                href="/demo-anket/img/type-questions/icons-control/full-screen.svg#fullScreenIcon"
               />
             </svg>
           </button>

@@ -234,7 +234,7 @@ export function getDistributionScale() {
         "Какие у вас есть предложения по изменению способов мотивации у сотрудников вашей компании?",
       description:
         "Введите в поле ниже свои предложения по изменению способов мотивации у сотрудников.",
-      img: "/img/type-questions/img-title.jpg",
+      img: "/demo-anket/img/type-questions/img-title.jpg",
     },
     {
       id: 11,
@@ -244,7 +244,7 @@ export function getDistributionScale() {
         "Какие у вас есть предложения по изменению способов мотивации у сотрудников вашей компании?",
       description:
         "Введите в поле ниже свои предложения по изменению способов мотивации у сотрудников.",
-      img: "/img/type-questions/img-title.jpg",
+      img: "/demo-anket/img/type-questions/img-title.jpg",
     },
   ];
 }
@@ -259,7 +259,7 @@ export function getSelect() {
       questionNumber: "1",
       title: "Какой цвет IPhone Вам нравится больше остальных?",
       description: "Выберте один вариант ответа",
-      img: "/img/type-questions/image-11.jpg",
+      img: "/demo-anket/img/type-questions/image-11.jpg",
       required: true,
       selects: [
         {
@@ -270,19 +270,19 @@ export function getSelect() {
               id: 0,
               title: "Green (зеленый)",
               type: "img",
-              img: "/img/type-questions/image-22.png",
+              img: "/demo-anket/img/type-questions/image-22.png",
             },
             {
               id: 1,
               title: "Black (черный)",
               type: "img",
-              img: "/img/type-questions/image-33.png",
+              img: "/demo-anket/img/type-questions/image-33.png",
             },
             {
               id: 2,
               title: "Gold (золото)",
               type: "img",
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
             {
               id: 3,
@@ -366,7 +366,7 @@ export function getSelect() {
               id: 2,
               title: "Gold (золото)",
               type: "img",
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
             {
               id: 3,
@@ -398,19 +398,19 @@ export function getSelect() {
               id: 0,
               title: "Green (зеленый)",
               type: "img",
-              img: "/img/type-questions/image-22.png",
+              img: "/demo-anket/img/type-questions/image-22.png",
             },
             {
               id: 1,
               title: "Black (черный)",
               type: "img",
-              img: "/img/type-questions/image-33.png",
+              img: "/demo-anket/img/type-questions/image-33.png",
             },
             {
               id: 2,
               title: "Gold (золото)",
               type: "img",
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
           ],
         },
@@ -443,7 +443,7 @@ export function getMultiselect() {
       questionNumber: "1",
       title: "Какой цвет IPhone Вам нравится больше остальных?",
       description: "Выберте один вариант ответа",
-      img: "/img/type-questions/image-11.jpg",
+      img: "/demo-anket/img/type-questions/image-11.jpg",
       selects: [
         {
           id: 0,
@@ -453,19 +453,19 @@ export function getMultiselect() {
               id: 0,
               title: "Green (зеленый)",
               type: "img",
-              img: "/img/type-questions/image-22.png",
+              img: "/demo-anket/img/type-questions/image-22.png",
             },
             {
               id: 1,
               title: "Black (черный)",
               type: "img",
-              img: "/img/type-questions/image-33.png",
+              img: "/demo-anket/img/type-questions/image-33.png",
             },
             {
               id: 2,
               title: "Gold (золото)",
               type: "img",
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
             {
               id: 3,
@@ -549,7 +549,7 @@ export function getMultiselect() {
               id: 2,
               title: "Gold (золото)",
               type: "img",
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
             {
               id: 3,
@@ -581,19 +581,19 @@ export function getMultiselect() {
               id: 0,
               title: "Green (зеленый)",
               type: "img",
-              img: "/img/type-questions/image-22.png",
+              img: "/demo-anket/img/type-questions/image-22.png",
             },
             {
               id: 1,
               title: "Black (черный)",
               type: "img",
-              img: "/img/type-questions/image-33.png",
+              img: "/demo-anket/img/type-questions/image-33.png",
             },
             {
               id: 2,
               title: "Gold (золото)",
               type: "img",
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
           ],
         },
@@ -626,7 +626,7 @@ export function getDropdown() {
       questionNumber: "1",
       title: "Из какого вы города?",
       description: "Выберите один из вариантов ответа",
-      img: "/img/type-questions/img-title.jpg",
+      img: "/demo-anket/img/type-questions/img-title.jpg",
       timer: 2,
       selects: {
         id: 0,
@@ -668,7 +668,7 @@ export function getMultidropdown() {
       title: "Header",
       description: "Description",
       comments: "Technical description",
-      img: "/img/type-questions/img-title.jpg",
+      img: "/demo-anket/img/type-questions/img-title.jpg",
       selects: {
         id: 0,
         required: true,
@@ -715,7 +715,7 @@ export function getFree() {
         "Введите в поле ниже свои предложения по изменению способов мотивации у сотрудников.",
       comments:
         "Длина текста должна составлять не менее 5 и не более 20 символов",
-      img: "/img/type-questions/img-title2.png",
+      img: "/demo-anket/img/type-questions/img-title2.png",
       required: true,
     },
     {
@@ -743,7 +743,7 @@ export function getFreeList() {
         "Введите в поле ниже свои предложения по изменению способов мотивации у сотрудников.",
       comments:
         "Длина текста должна составлять не менее 5 и не более 20 символов",
-      img: "/img/type-questions/img-title2.png",
+      img: "/demo-anket/img/type-questions/img-title2.png",
       required: true,
       limitation: 4,
       selects: {
@@ -754,7 +754,7 @@ export function getFreeList() {
             id: 0,
             title: `Предложение 1`,
             required: true,
-            src: `/img/type-questions/img-title3.png`,
+            src: `/demo-anket/img/type-questions/img-title3.png`,
           },
           {
             id: 1,
@@ -765,7 +765,7 @@ export function getFreeList() {
             id: 2,
             title: `Предложение 3`,
             required: false,
-            src: `/img/type-questions/img-title3.png`,
+            src: `/demo-anket/img/type-questions/img-title3.png`,
           },
         ],
       },
@@ -793,7 +793,7 @@ export function getFreeList() {
             id: 1,
             title: `Предложение 2`,
             required: false,
-            src: `/img/type-questions/img-title3.png`,
+            src: `/demo-anket/img/type-questions/img-title3.png`,
           },
           {
             id: 2,
@@ -815,7 +815,7 @@ export function getPaircompare() {
       title:
         "Если бы перед Вами стоял выбор между двумя вариантами упаковки, то какую Вы бы выбрали скорее всего?",
       comments: "В каждой паре выберите один из вариантов",
-      img: "/img/type-questions/img-title2.png",
+      img: "/demo-anket/img/type-questions/img-title2.png",
       selects: [
         {
           id: 0,
@@ -824,13 +824,13 @@ export function getPaircompare() {
               id: 0,
               title: "Gold (золото)",
               isActive: false,
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
             {
               id: 1,
               title: "Black (черный)",
               isActive: false,
-              img: "/img/type-questions/image-33.png",
+              img: "/demo-anket/img/type-questions/image-33.png",
             },
           ],
         },
@@ -841,13 +841,13 @@ export function getPaircompare() {
               id: 0,
               title: "Green (зеленый)",
               isActive: false,
-              img: "/img/type-questions/image-22.png",
+              img: "/demo-anket/img/type-questions/image-22.png",
             },
             {
               id: 1,
               title: "Gold (золото)",
               isActive: false,
-              img: "/img/type-questions/image-44.png",
+              img: "/demo-anket/img/type-questions/image-44.png",
             },
           ],
         },
@@ -858,13 +858,13 @@ export function getPaircompare() {
               id: 0,
               title: "Green (зеленый)",
               isActive: false,
-              img: "/img/type-questions/image-22.png",
+              img: "/demo-anket/img/type-questions/image-22.png",
             },
             {
               id: 1,
               title: "Black (черный)",
               isActive: false,
-              img: "/img/type-questions/image-33.png",
+              img: "/demo-anket/img/type-questions/image-33.png",
             },
           ],
         },
@@ -1103,13 +1103,13 @@ export function getOrder() {
         {
           id: 0,
           text: "Whatssas",
-          src: "/img/type-questions/rangeX10.png",
+          src: "/demo-anket/img/type-questions/rangeX10.png",
           alt: "range1",
         },
         {
           id: 1,
           text: "WhatsApp - американский бесплатный сервис обмена мгновенными сообщениями и голосовой связи по IP, принадлежащий компании Meta. Он позволяет пользователям отправлять текстовые и голосовые сообщения, совершать голосовые и видеозвонки, обмениваться изображениями, документами, местоположением пользователя и другим контентом. Клиент работает на платформах Android, iOS, S40, KaiOS, а также Windows, macOS и в виде веб-приложения. Компания WhatsApp Inc., создавшая мессенджер, была основана Яном Кумом и Брайаном Эктоном 24 февраля 2009 года и расположена в Маунтин-Вью, США; с октября 2014 года принадлежит Meta[2][3] В 2016 году приложение официально стало бесплатным и по сей день является таким[4], пользователь оплачивает лишь использованный приложением интернет-трафик[5][6]. Приложением пользуется более миллиарда человек[7]. WhatsApp - американский бесплатный сервис обмена мгновенными сообщениями и голосовой связи по IP, принадлежащий компании Meta. Он позволяет пользователям отправлять текстовые и голосовые сообщения, совершать голосовые и видеозвонки, обмениваться изображениями, документами, местоположением пользователя и другим контентом.",
-          src: "/img/type-questions/range2.png",
+          src: "/demo-anket/img/type-questions/range2.png",
           alt: "range2",
         },
 
@@ -1134,7 +1134,7 @@ export function getClicktest() {
         "Нажимайте на отделные части (места, точки) дизайна, которые Вы видите в первую очередь.",
       comments: "Необходимо выбрать не менее 1 точки",
       required: true,
-      imgClick: "/img/type-questions/image-33.png",
+      imgClick: "/demo-anket/img/type-questions/image-33.png",
     },
     {
       id: 33,
@@ -1145,7 +1145,7 @@ export function getClicktest() {
       description:
         "Нажимайте на отделные части (места, точки) дизайна, которые Вы видите в первую очередь.",
       required: true,
-      imgClick: "/img/type-questions/image-22.png",
+      imgClick: "/demo-anket/img/type-questions/image-22.png",
     },
   ];
 }
@@ -1162,7 +1162,7 @@ export function getAreatest() {
         "Нажимайте на отделные части (места, точки) дизайна, которые Вы видите в первую очередь.",
       comments: "Необходимо выбрать не менее 1 точки",
       required: true,
-      imgClick: "/img/type-questions/image-33.png",
+      imgClick: "/demo-anket/img/type-questions/image-33.png",
     },
     {
       id: 35,
@@ -1173,7 +1173,7 @@ export function getAreatest() {
       description:
         "Нажимайте на отделные части (места, точки) дизайна, которые Вы видите в первую очередь.",
       required: true,
-      imgClick: "/img/type-questions/image-22.png",
+      imgClick: "/demo-anket/img/type-questions/image-22.png",
     },
   ];
 }

@@ -24,7 +24,7 @@
             <a href="#" class="share-survey__social-item">
               <i
                 style="
-                  background: url('/img/type-questions/vk.svg') center
+                  background: url('/demo-anket/img/type-questions/vk.svg') center
                     center/contain no-repeat;
                 "
               ></i>
@@ -32,7 +32,7 @@
             <a href="#" class="share-survey__social-item">
               <i
                 style="
-                  background: url('/img/type-questions/tw.svg') center
+                  background: url('/demo-anket/img/type-questions/tw.svg') center
                     center/contain no-repeat;
                 "
               ></i>
@@ -40,7 +40,7 @@
             <a href="#" class="share-survey__social-item">
               <i
                 style="
-                  background: url('/img/type-questions/ok.svg') center
+                  background: url('/demo-anket/img/type-questions/ok.svg') center
                     center/contain no-repeat;
                 "
               ></i>
@@ -48,7 +48,7 @@
             <a href="#" class="share-survey__social-item">
               <i
                 style="
-                  background: url('/img/type-questions/mail.svg') center
+                  background: url('/demo-anket/img/type-questions/mail.svg') center
                     center/contain no-repeat;
                 "
               ></i>
