@@ -3,7 +3,7 @@
     <div class="wrapper-select">
       <select name="" id="" v-model="current">
         <option :value="type" v-for="(type, id) in types" :key="id">
-          {{ type }}
+          {{ type.title }}
         </option>
       </select>
     </div>
@@ -32,29 +32,29 @@ export default {
   data() {
     return {
       theme: "default", //'green', image
-      current: "Name",
+      current: {value: "Scale", title: "Шкала"},
       types: [
-        "Scale",
-        "DistributionScale",
-        // "Matrix",
-        "Select",
-        "Multiselect",
-        // "Map",
-        "Dropdown",
-        "Multidropdown",
-        "Free",
-        "Freelist",
-        "Paircompare",
-        "Name",
-        "Email",
-        "Phone",
-        "Date",
-        "File",
-        "Order",
-        "Clicktest",
-        "Areatest",
-        "TextType",
-        "MapType",
+        {value: "Scale", title: "Шкала"},
+        // {value: "Matrix", title: "Матрица"},
+        {value: "DistributionScale", title: "Распределительная шкала"},
+        {value: "Select", title: "Одиночный выбор"},
+        {value: "Multiselect", title: "Мультивыбор"},
+        // {value: "Map", title: "Карта"},
+        {value: "Dropdown", title: "Выпадающий список"},
+        {value: "Multidropdown", title: "Выпадающий список мультивыбор"},
+        {value: "Free", title: "Окно ответа"},
+        {value: "Freelist", title: "Окно ответа увеличивающийся"},
+        {value: "Paircompare", title: "ДВыбор между двух"},
+        {value: "Name", title: "Имя"},
+        {value: "Email", title: "Емаил"},
+        {value: "Phone", title: "Телефон"},
+        {value: "Date", title: "Дата"},
+        {value: "File", title: "Файл"},
+        {value: "Order", title: "Перетаскивание"},
+        {value: "Clicktest", title: "Клик тест"},
+        {value: "Areatest", title: "Тест области"},
+        {value: "TextType", title: "Мультимедиа"},
+        // {value: "MapType", title: "Карта"},
       ],
       headerHeight: 0,
     };
@@ -62,7 +62,7 @@ export default {
 
   computed: {
     currentComponent() {
-      const curQuest = this.current;
+      const curQuest = this.current.value;
       return () => import(`@/components/questions/${curQuest}Control.vue`);
     },
   },

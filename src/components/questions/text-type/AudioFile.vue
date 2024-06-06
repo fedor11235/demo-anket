@@ -32,7 +32,7 @@
       </div>
 
       <div class="audiofile__dur">
-        {{ formatTime(currentTime) }} / {{ formatTime(audioDuration) }}
+        {{ formatTime(currentTime / 100) }} / {{ formatTime(audioDuration / 100) }}
       </div>
     </div>
 

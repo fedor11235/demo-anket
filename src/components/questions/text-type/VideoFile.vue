@@ -171,7 +171,7 @@
 </template>
 
 <script>
-import audioUrl from "@/assets/video/video2.webm";
+import videoUrl from "@/assets/video/video2.webm";
 export default {
   data() {
     return {
@@ -185,7 +185,7 @@ export default {
     };
   },
   mounted() {
-    this.$refs.video.src = audioUrl;
+    this.$refs.video.src = videoUrl;
     this.$refs.video.onloadeddata = () => {
       this.videoDuration = this.$refs.video.duration;
     };
@@ -289,12 +289,13 @@ export default {
 
 <style lang="scss" scoped>
 .video {
-  position: fixed;
+  // position: fixed;
   transition: all 0.3s ease-in-out;
 }
 
 .video--full-size {
   position: fixed !important;
+  object-fit: cover;
   z-index: 10;
   top: 0;
   left: 0;
